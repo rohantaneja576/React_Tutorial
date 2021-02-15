@@ -16,7 +16,7 @@ const Tab_Switch = () => {
 
   const TabView = ({ activeTab }) => {
     const foundValue = tabs.find((val) => val.id === activeTab);
-    console.log(foundValue);
+    //console.log(foundValue);
     return <h1>{foundValue.label}</h1>;
     // switch (activeTab) {
     //   case 1:
